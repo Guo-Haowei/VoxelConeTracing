@@ -1,10 +1,6 @@
 #include "lua_script.h"
 
-extern "C" {
-#include <lua/lauxlib.h>
-#include <lua/lua.h>
-#include <lua/lualib.h>
-}
+#include <lua.hpp>
 
 #include "universal/core_assert.h"
 #include "universal/dvar_api.h"
